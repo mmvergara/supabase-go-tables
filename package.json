@@ -1,7 +1,14 @@
 {
   "name": "supabase-go-tables",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generate Go structs from your Supabase tables",
+  "keywords": [
+    "supabase",
+    "go",
+    "golang",
+    "generate",
+    "structs"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -13,13 +20,25 @@
     "lint": "tsc"
   },
   "bin": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmvergara/supabase-go-tables"
+  },
+  "bugs": {
+    "url": "https://github.com/mmvergara/supabase-go-tables/issues"
+  },
+  "homepage": "https://github.com/mmvergara/supabase-go-tables#readme",
   "author": "mmvergara",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^16.4.5",
     "shelljs": "^0.8.5"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
+    "@changesets/cli": "^2.27.5",
     "@types/shelljs": "^0.8.15",
     "tsup": "^8.1.0",
     "typescript": "^5.4.5"
