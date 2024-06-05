@@ -62,15 +62,24 @@ const copyToClipboard = (text: string) => {
   if (shell.which("pbcopy")) {
     // macOS
     console.log("=== Definitions copied to clipboard ===");
+    console.log("\n");
     shell.echo(text).exec("pbcopy");
+    console.log("\n");
+    console.log("=== Definitions copied to clipboard ===");
   } else if (shell.which("xclip")) {
     // Linux
     console.log("=== Definitions copied to clipboard ===");
+    console.log("\n");
     shell.echo(text).exec("xclip -selection clipboard");
+    console.log("\n");
+    console.log("=== Definitions copied to clipboard ===");
   } else if (shell.which("clip")) {
     // Windows
     console.log("=== Definitions copied to clipboard ===");
+    console.log("\n");
     shell.echo(text).exec("clip");
+    console.log("\n");
+    console.log("=== Definitions copied to clipboard ===");
   } else {
     console.log(
       "No clipboard command found. Please copy the structs manually."
