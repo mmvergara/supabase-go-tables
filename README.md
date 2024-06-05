@@ -26,3 +26,5 @@ npx supabase-go-tables
 ```
 
 Make sure that `SUPABASE_URL` and `SUPABASE_ANON_KEY` are set in your environment variables
+
+This command will copy the generated Go structs to your clipboard. 
