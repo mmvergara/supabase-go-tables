@@ -2,10 +2,15 @@
 
 Generate Go structs from your Supabase tables
 
-
 [![NPM Version](https://img.shields.io/npm/v/supabase-go-tables?logo=npm&labelColor=cb0000&color=black)](https://www.npmjs.com/package/supabase-go-tables)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/supabase-go-tables?label=BundlePhobia&labelColor=blackn&color=green)
-## Generate Using CLI
+
+## Generate Manually via API
+
+**https://mmvergara.github.io/supabase-go-tables/**
+
+## Generate Using CLI (Recommended)
+
 ### Installation
 
 ```bash
