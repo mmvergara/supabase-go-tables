@@ -1,6 +1,6 @@
 # Supabase Go Tables
 
-Generate Go structs from your Supabase tables
+Generate Go structs from your Supabase tables 🚀
 
 ## Generate Manually via API
 
